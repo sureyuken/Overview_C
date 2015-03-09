@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(int argc, const char *argv[])
+{
+    int height = (int)(argv[1][0] - '0');;;
+    printf("%d\n", height);
+    for(int i = 1; i <= height; i++)
+    {
+        for(int j = 0; j < i; j++)
+        {
+            printf("#");
+        }
+        printf("\n");
+    }
+    printf("");
+    printf("\n");
+    return 0;
+}
